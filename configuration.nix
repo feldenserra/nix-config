@@ -111,6 +111,8 @@
   environment.systemPackages = with pkgs; [
     git
     gh
+    ripgrep
+    fzf
     rustc
     cargo
     gcc
