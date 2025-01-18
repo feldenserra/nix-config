@@ -14,6 +14,8 @@
 		 YouCompleteMe
 		 auto-pairs
 		 syntastic
+         fzf-vim
+         fzf
 		 ];
 
 		 opt = [ ];
