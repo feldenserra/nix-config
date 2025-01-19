@@ -1,5 +1,4 @@
-#
-Edit this configuration file to define what should be installed on
+# Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
@@ -97,7 +96,7 @@ Edit this configuration file to define what should be installed on
   # VBox -- Commenting out for now, way too long to build . 
   # virtualisation.virtualbox.host.enable = true;
   # virtualisation.virtualbox.host.enableExtensionPack = true;
-  # virtualisation.virtualbox.guest.enable = true;
+  virtualisation.virtualbox.guest.enable = true;
 
   # Install firefox.
   programs.firefox.enable = true;
